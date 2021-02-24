@@ -1,6 +1,4 @@
-# Habil 2.0
-
-**Welcome!**
+# Welcome
 
 This page is the online copy of my **Habilitation thesis**, submitted to 
 the [Faculty of Geo- and Atmospheric Sciences](https://www.uibk.ac.at/fakultaeten/geo_und_atmosphaerenwissenschaften/index.html.en) 
