@@ -1,0 +1,39 @@
+#######################################################################################
+# A default configuration that will be loaded for all jupyter books
+# See the documentation for help and more options: 
+# https://jupyterbook.org/customize/config.html
+
+#######################################################################################
+# Book settings
+title: Numerical modelling of global glacier change  # The title of the book. Will be placed in the left navbar.
+author: Fabien Maussion  # The author of the book
+copyright: "2021"  # Copyright year to be placed in the footer
+logo: img/logo.png  # A path to the book logo
+
+repository:
+  url: https://github.com/fmaussion/habil2.0
+  path_to_book: habil 
+  branch: master
+bibtex_bibfiles:
+   - references.bib
+html:
+  use_repository_button: false
+  use_issues_button: false
+  use_edit_page_button: false
+  google_analytics_id: UA-88391345-1
+  extra_footer: |
+    <p>
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+      <img align="right" class="margin" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" width="88px">
+    </a>
+    This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a> unless specified otherwise (e.g. figures from published studies).
+    <br>
+    &copy; Copyright 2021.
+    </p>
+sphinx:
+  config:
+    html_show_copyright: false
+execute:
+  execute_notebooks: auto
+  allow_errors: true
+exclude_patterns: [.virtual_documents/*]

@@ -1,0 +1,48 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+- file: welcome
+
+- part: Chapter 1 - Introduction
+  chapters:
+    - file: ch01/introduction
+
+- part: Chapter 2 - The Open Global Glacier Model (OGGM)
+  chapters:
+    - file: ch02/oggm
+    - file: ch02/paper_01
+
+- part: Chapter 3 - Ice thickness estimation
+  chapters:
+    - file: ch03/paper_02
+    - file: ch03/paper_03
+    - file: ch03/paper_04
+    - file: ch03/paper_05
+
+- part: Chapter 4 - Glacier mass-balance
+  chapters:
+    - file: ch04/paper_06
+    - file: ch04/paper_07
+    - file: ch04/paper_08
+    - file: ch04/paper_09
+
+- part: Chapter 5 - Past and future glacier change
+  chapters:
+    - file: ch05/paper_10
+    - file: ch05/paper_11
+    - file: ch05/paper_12
+    - file: ch05/paper_13
+
+- part: Chapter 6 - OGGM-Edu
+  chapters:
+    - file: ch06/oggm_edu
+
+- part: Chapter 7 - Conclusions
+  chapters:
+    - file: ch07/outlook
+    - file: ch07/references
+    - file: ch07/acknowledgements
+
+- part: Chapter 8 - About the author
+  chapters:
+    - file: ch08/cv
