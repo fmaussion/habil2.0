@@ -4,8 +4,28 @@
 Galos, S. P., Klug, C., **Maussion, F.**, Covi, F., Nicholson, L., Rieg, L., Gurgiser, W., Mölg, T. and Kaser, G.: Reanalysis of a 10-year record (2004–2013) of seasonal mass balances at Langenferner/Vedretta Lunga, Ortler Alps, Italy, Cryosph., 11(3), 1417–1439, [doi:10.5194/tc-11-1417-2017](https://doi.org/10.5194/tc-11-1417-2017), 2017.
 ```
 
-This paper was 
+Measurements of mass balance are the backbone of any glacier modelling effort.
+"Traditional" measurements have been conducted since decades and form the longest available 
+time series of glacier mass balance. They are conducted by local authorities and scientists, 
+then curated and provided by the World Glacier Monitoring Service ([WGMS](https://wgms.ch)).
 
-My contribution to this paper was
+OGGM (and many other glacier models) are relying heavily on these observations for model calibration 
+and validation, and potential 
+biases and errors will have consequences carried over to the model projections. It is therefore 
+very important to ensure the quality of the provided mass balances, and also revisit ("re-analyse")
+previous measurements under the light of modern knowledge and methods.
+
+In this study led by Stephan Galos (at that time PhD student at the University of
+Innsbruck), we use a combination of surface energy balance modelling and partial
+observations to reconstruct and homogenize past mass balance time series. We 
+show that the reconstructed data can differ substantially from the original 
+estimates, and we discuss the importance of a careful planning of mass balance
+measurement campaigns.
+
+I contributed to this paper by providing guidance on the statistical analysis,
+and I conducted the bootstrap uncertainty analysis, helping to quantify the 
+uncertainty involved in interpolating ablation stake data to the glacier scale.
+I am also regularly involved in fieldwork and field courses for our 
+master students on this particular glacier (Langenferner).
 
 [Link to the paper](https://doi.org/10.5194/tc-11-1417-2017) (open-access)

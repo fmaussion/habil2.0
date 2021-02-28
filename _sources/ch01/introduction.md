@@ -23,7 +23,7 @@ a grim picture of the state of the cryosphere: I quote below parts of the summar
 
 > River runoff in snow dominated and glacier-fed river basins will change further in amount and seasonality in response to projected snow cover and glacier decline (very high confidence) with negative impacts on agriculture, hydropower and water quality in some regions (medium confidence). (...) Projected trends in annual runoff vary substantially among regions, and can even be opposite in direction, but there is high confidence that in all regions average annual runoff from glaciers will have reached a peak that will be followed by declining runoff at the latest by the end of the 21st century.
 
-> Global mean sea level (GMSL) is rising (virtually certain) and accelerating (high confidence). The sum of glacier and ice sheet contributions is now the dominant source of GMSL rise (very high confidence).
+> Global mean sea-level (GMSL) is rising (virtually certain) and accelerating (high confidence). The sum of glacier and ice sheet contributions is now the dominant source of GMSL rise (very high confidence).
 
 > Future rise in GMSL caused by thermal expansion, melting of glaciers and ice sheets and land water storage changes, is strongly dependent on which Representative Concentration Pathway (RCP) emission scenario is followed. SLR at the end of the century is projected to be faster under all scenarios, including those compatible with achieving the long-term temperature goal set out in the Paris Agreement. GMSL will rise between 0.43 m (0.29–0.59 m, likely range; RCP2.6) and 0.84 m (0.61–1.10 m, likely range; RCP8.5) by 2100 (medium confidence) relative to 1986–2005.
 
@@ -50,7 +50,7 @@ produced to fulfill the needs of the forthcoming Fifth Assessment Report of the 
 Change ([IPCC AR5](https://www.ipcc.ch/report/ar5/wg1/)). The RGI (a collection of glacier outlines complemented with
 attributes such as glacier type, hypsometry, etc.) fundamentally changed the way that regional and global glacier change
 assessments would be conducted {cite}`Pfeffer2014`. One of the first observational study to make use of this inventory
-was the "Reconciled Estimate of Glacier Contributions to Sea Level Rise: 2003 to 2009" by Gardner et al., 2013
+was the "Reconciled Estimate of Glacier Contributions to sea-level Rise: 2003 to 2009" by Gardner et al., 2013
 {cite}`Gardner2013`, and it was followed by many others {cite}`Brun2017,Dussaillant2019,Shean2020`. The RGI also allowed
 scientists to compute new estimates of global glacier volume, better constraining their potential contribution to
 sea-level rise {cite}`Huss2012,Grinsted2013`. Finally, the RGI paved the way for the development of a wealth of glacier
@@ -79,8 +79,8 @@ modelling framework, representing the "state-of-the art" in large-scale glacier 
 ## Synopsis of the thesis
 
 This habilitation thesis summarizes a few of the many contributions to the tremendous progress made in the field of
-large-scale gaciology since 2015. It offers my personal perspective and is limited to my own contributions of course, as
-is required for such a document. The thesis is organized around the following thematic chapters and publications:
+large-scale gaciology since 2015. Of course, it is limited to my own contributions and only offers my personal perspective,
+as is required for such a document. The thesis is organized around the following thematic chapters and publications:
 
 - In **Chapter 2**, I present the model description publication introducing OGGM, as well as several new developments
   worth discussing here. OGGM is a modelling framework dealing with the entire glacier system, under several
@@ -89,9 +89,9 @@ is required for such a document. The thesis is organized around the following th
 - In **Chapter 3**, I present four publications dealing with the topic of glacier ice thickness estimation using
   numerical methods. Knowledge about glacier volume and bed topography is a prerequisite for the modelling of glacier
   evolution.
-- In **Chapter 4**, I present four publications dedicated to glacier mass-balance estimation, using in-situ and remote
-  observations combined with statistical and numerical methods. Surface mass-balance is the most direct response of
-  glaciers to climate variations, and the observation of glacier mass-balance provides invaluable calibration products
+- In **Chapter 4**, I present four publications dedicated to glacier mass balance estimation, using in-situ and remote
+  observations combined with statistical and numerical methods. Surface mass balance is the most direct response of
+  glaciers to climate variations, and the observation of glacier mass balance provides invaluable calibration products
   for glacier models.
 - In **Chapter 5**, I present four publications making use of the OGGM model to simulate past and future glacier change.
   Two of them are focussing on the problem of reconstructing past glaciers length fluctuations, while the two others
@@ -100,4 +100,8 @@ is required for such a document. The thesis is organized around the following th
   high-school and university instructors.
 - In **Chapter 7**, I conclude this thesis and provide an outlook about planned future research based on OGGM.
 
-I hope that you will enjoy this personal journey in the field of large scale glacier modelling!
+Each thesis publication is preceded by a short introductions, meant to offer my personal 
+perspective on the content and genesis of the papers, as well as their relevance in the context
+of this thesis.
+
+I hope that you will enjoy this personal journey in the field of large-scale glacier modelling!
