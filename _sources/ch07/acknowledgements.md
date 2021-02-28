@@ -1,5 +1,7 @@
 # Acknowledgements
 
+*In memory of Graham Cogley*
+
 Without collaborations, this work would not have been possible.
 The best ideas come through exchange, teamwork, and friendship: I would like to 
 thank all the wonderful people, scientists and students I had the chance
@@ -32,4 +34,4 @@ I hope that I will be able to provide similar support to my present and future m
 
 Finally, I would like to thank my family, my parents for their love and support, my sister Anne for her wonderful 
 participation in the OGGM-Edu project. And, finally, no words can express my gratitude to my partner 
-at home, at work and under the start, my compass in the good and the bad times: Conni.
+at home, at work and under the stars, my compass in the good and the bad times: Conni.
