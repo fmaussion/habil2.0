@@ -185,6 +185,8 @@
 \addtokomafont{subsection}{}
 \addtokomafont{subsubsection}{}
 
+\newif\iflong
+
 \begin{document}
 
 \setcounter{tocdepth}{1}
@@ -202,6 +204,10 @@
 \tableofcontents
 
 \mainmatter
+
+% Do pdfs or not 
+% \longtrue 
+\longfalse
 
 \chapter{Introduction}
 \label{chap1}
