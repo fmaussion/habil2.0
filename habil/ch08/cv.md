@@ -2,6 +2,12 @@
 
 *Last updated: February 2021*
 
+Department of Atmospheric and Cryospheric Sciences <br>
+Research centre for Climate <br>
+University of Innsbruck <br>
+Innrain 52f, A-6020 Innsbruck <br>
+Personal website: https://fabienmaussion.info
+
 ## Education
 
 - 2002: Baccalaureate (High School Diploma)
