@@ -499,11 +499,11 @@ unfortunately not always the case).</p>
 <p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Glacier centric approach applied to the Eyjafjallajökull ice cap in Iceland. <br> Glacier outlines provided by the Randolph Glacier Inventory v6.0.</span><a class="headerlink" href="#glacier-centric-approach" title="Permalink to this image">¶</a></p>
 </div>
 <p>The glacier centric approach is used by most large-scale glacier models to date. Alternative strategies include global
-gridded approaches <span id="id1">[<a class="reference internal" href="../ch07/references.html#id24"><span>34</span></a>]</span>, where all glaciers in a model grid cell are added together and possibly
+gridded approaches <span id="id1">[<a class="reference internal" href="../ch07/references.html#id24"><span>35</span></a>]</span>, where all glaciers in a model grid cell are added together and possibly
 organized into elevation bins. Another approach is to handle entire glacier complexes as one single body of ice (“ice
 caps”). This is physically consistent and feasible, but requires either distributed models of ice flow
-<span id="id2">[<a class="reference internal" href="../ch07/references.html#id3"><span>41</span></a>]</span> (computationally expensive) or implies simplifications to the glacier geometry (so that all ice flows
-downwards, <span id="id3">[<a class="reference internal" href="../ch07/references.html#id27"><span>23</span></a>]</span>).</p>
+<span id="id2">[<a class="reference internal" href="../ch07/references.html#id3"><span>42</span></a>]</span> (computationally expensive) or implies simplifications to the glacier geometry (so that all ice flows
+downwards, <span id="id3">[<a class="reference internal" href="../ch07/references.html#id27"><span>24</span></a>]</span>).</p>
 <p>The advantage of glacier centric models is their adherence to the de-facto standard inventory of glacier outlines:
 the <a class="reference external" href="https://www.glims.org/RGI/">Randolph Glacier Inventory</a>. Any glacier can be selected and simulated, and the model
 output can be compared to standard reference datasets such as length changes or surface mass balance data from
@@ -516,7 +516,7 @@ inferring ice thickness, for example.</p>
 and ice divides (this problem can be mitigated by defining glacier complexes as one single entity, requiring other
 strategies than currently standard in OGGM). A larger issue of glacier centric models is that they are focussed on
 simulating glaciers that have been inventoried, i.e. they cannot retrieve past (or present) uncharted glaciers
-<span id="id4">[<a class="reference internal" href="../ch07/references.html#id12"><span>42</span></a>]</span>. For these reasons, they are not well adapted for studying glacier evolution in climates when
+<span id="id4">[<a class="reference internal" href="../ch07/references.html#id12"><span>43</span></a>]</span>. For these reasons, they are not well adapted for studying glacier evolution in climates when
 glaciers were widely different from today (e.g. the Last Glacial Maximum).</p>
 </div>
 <div class="section" id="standard-modelling-workflow">
@@ -644,7 +644,7 @@ timeseries or not).</p>
 <a class="reference internal image-reference" href="https://docs.oggm.org/en/stable/_images/flowchart_flowlines.png"><img alt="https://docs.oggm.org/en/stable/_images/flowchart_flowlines.png" src="https://docs.oggm.org/en/stable/_images/flowchart_flowlines.png" style="width: 70%;" /></a>
 <p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Example flowchart illustrating how OGGM implemented support for two kinds
 of flowline representations for a glacier: centerlines on the left (OGGM’s default)
-and binned elevation bands flowlines on the right (after <span id="id5">[<a class="reference internal" href="../ch07/references.html#id27"><span>23</span></a>]</span>).</span><a class="headerlink" href="#flowchart" title="Permalink to this image">¶</a></p>
+and binned elevation bands flowlines on the right (after <span id="id5">[<a class="reference internal" href="../ch07/references.html#id27"><span>24</span></a>]</span>).</span><a class="headerlink" href="#flowchart" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="take-home-messages">
@@ -728,6 +728,10 @@ rendered online with <a class="reference external" href="https://jupyterbook.org
 alongside the code, making them particularly adapted for tutorials. In addition, tutorials can be run and explored
 interactively thanks to <a class="reference external" href="https://mybinder.org">MyBinder</a>. This is a great tool to engage new users, since they can try
 the model online before going the struggle of installing it.</p>
+<div class="figure align-left" id="tutos">
+<a class="reference internal image-reference" href="https://oggm.org/img/blog/v140/tutos_demo.gif"><img alt="https://oggm.org/img/blog/v140/tutos_demo.gif" src="https://oggm.org/img/blog/v140/tutos_demo.gif" style="width: 70%;" /></a>
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Opening a tutorial in an interactive session in the browser</span><a class="headerlink" href="#tutos" title="Permalink to this image">¶</a></p>
+</div>
 </div>
 <div class="section" id="reproducibility">
 <h3>Reproducibility<a class="headerlink" href="#reproducibility" title="Permalink to this headline">¶</a></h3>
