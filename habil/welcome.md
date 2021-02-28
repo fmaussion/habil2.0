@@ -21,24 +21,39 @@ at various spatial (glacier to global) and temporal (annual to centennial) scale
 the projects I had the chance to contribute to, it also develops some aspects of observational 
 glaciology and meteorology. However, the main bulk of this work is focussing on the central 
 topic of this thesis: **the development of modern numerical methods to (i) estimate the ice
-thickness of mountain glaciers and their volume, (ii) compute their mass-balance and (iii) 
+thickness of mountain glaciers and their volume, (ii) compute their mass balance and (iii) 
 simulate their evolution under climate change**.
 
 A further important theme that is developed in this thesis is the topic of **open science**. 
-Because of my personal conviction that all sciencitic results should be openly available, I have 
+Because of my personal conviction that all scientific results should be openly available, I have 
 spent a lot of thought and energy on developing methods and workflows that enable a more open, 
 accessible, documented, and reproducible scientific practice. Many of these ideas are not from my 
 own invention, but are workflows that I borrowed and adapted from the open-source software 
 development community.
 
-All the work presented here is the result of collaborations with numerous students and colleagues. 
-These collaborations originate from my work at the University of Innsbruck, but also from a wider 
-network of collaborators and with international working groups. Four papers arose from my contributions 
+All the work presented here is the result of numerous collaborations, within the University of Innsbruck, 
+but also originating from a wider network of collaborators and from international working groups. 
+Five of these papers arose from my contributions 
 to the doctoral studies of Beatriz Recinos and Julia Eis (University of Bremen), Ben Pelto (University of 
-Northern British Columbia) and the master thesis of Tobias Zolles (University of Innsbruck).
+Northern British Columbia), Stephan Galos (University of Innsbruck) and the master thesis of
+Tobias Zolles (University of Innsbruck).
 
 
 ## Table of contents 
 
 ```{tableofcontents}
 ```
+
+## Copyright notice
+
+All content in this thesis (except the linked publications) is licensed 
+under a [Creative Commons Attribution 4.0 International (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0).
+
+The following papers are published with an open creative commons license:
+01, 02, 04, 05, 06, 07, 08, 10, 11, 12. <br>
+The following papers are protected under publisher copyright: 03, 09, 13.
+
+In order not to violate any copyright protection laws, the following documents have been generated:
+- the online version of this thesis and the pdf available for download only link to the publisher's 
+  version of the papers. This may lead you to a paywall for papers 03, 09, 13.
+- the pdf version sent to the reviewers contains all papers.  

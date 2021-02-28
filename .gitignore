@@ -2,6 +2,16 @@
 html/index.html
 .idea
 habil/_build/
+_minted-habil*
+papers/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+habil.pdf
+*.synctex.gz
+habil.toc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,0 +1,255 @@
+% First TeX Draft für Fabi's Diss. Adapted from Tobi's texfile
+\documentclass[twoside,10pt,openright]{scrbook} % right-side equation numbering, 10 point font, print two-sided, chapterbegin on the right
+
+\KOMAoptions{BCOR=16mm,  	%
+ 	     DIV=12,		%
+	     twocolumn=false, 	%
+	     paper=A4, 		%
+	     draft=false,	%
+	     titlepage=true,	%
+	     toc=listof,	%
+	     headsepline=true,	%
+	     footsepline=false,
+	     toc=bibliography,
+	     numbers=noendperiod}
+
+\usepackage[default]{lato}
+\usepackage{amsxtra}     % Use various AMS packages
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathpazo}
+\usepackage{graphicx}    % Add some packages for figures. Read epslatex.pdf on ctan.tug.org
+\usepackage{caption}    % Add some packages for figures. Read epslatex.pdf on ctan.tug.org
+\usepackage{rotating}
+\usepackage{color}
+\usepackage{epsfig}
+\usepackage{subfigure}   % To make subfigures. Read subfigure.pdf on ctan.tug.org
+\usepackage{verbatim}
+\usepackage{natbib}      % Allows you to use BibTeX
+\usepackage{setspace}    % Allows you to specify the line spacing
+\usepackage{parskip}	 % no indent
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{nomencl}
+\usepackage{lscape}
+\usepackage[utf8]{inputenc} % to be sure
+\usepackage{csquotes}
+\usepackage{index}
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{textcomp} % \textcelsius
+\usepackage{nth}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{cclicenses}
+\usepackage{wrapfig}
+\usepackage{minted}
+\usepackage{hanging}
+\usepackage{bbding}
+\usepackage{microtype}
+%\usepackage[section]{placeins} this was to force figures to section. in the end maybe
+\usepackage{placeins}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[toc,page]{appendix}
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+\usepackage{float}
+
+\usepackage[bookmarks,colorlinks,citecolor=MidnightBlue,urlcolor=MidnightBlue,linkcolor=MidnightBlue,hypertexnames=false]{hyperref}
+%\usepackage[bookmarks,colorlinks,citecolor=Black,urlcolor=Black,linkcolor=Black,hypertexnames=false]{hyperref}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+%\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+%\newcommand\HUGE{\@setfontsize\Huge{38}{47}} 
+
+\newcommand{\figs}{../habil/img}
+
+%\doublespacing %gonehalfspacing for 1.5 spacing, \doublespacing for 2.0 spacing.
+\onehalfspacing
+
+\author{Fabien Maussion}
+\title{Numerical modelling of \\ global glacier change}
+\subtitle{}
+\date{2021}
+
+\makeatletter
+\def\thickhrulefill{\leavevmode \leaders \hrule height 1pt\hfill \kern \z@}
+\renewcommand{\maketitle}{\begin{titlepage}%
+  
+	\begin{center}
+		% Upper part of the page
+	  	\vspace*{0cm}
+		\Huge \bfseries \MakeUppercase{\@title} \mdseries \\[1.5cm]
+				
+		\Large \MakeUppercase{Habilitation thesis} \\	[1cm]		
+		\Large Fabien Maussion \\	[0.1cm]		
+		\large 2021 \\ [4.5cm]
+
+		\begin{figure}[h!]
+		\includegraphics[width=\textwidth ,angle=0]{\figs/title_pic.jpeg} \\ [3cm]
+		\end{figure}
+
+		\large Submitted to the Faculty of Geo- and Atmospheric Sciences \\ at the University of Innsbruck, Austria.
+	\end{center}
+        %\large Institut für Ökologie \\[0.2cm]
+        %\large Fachgebiet Klimatologie \\[1.2cm]  
+		%\large Dr. rer. nat. \\[1.2cm]
+  \end{titlepage}%
+  \setcounter{footnote}{0}%
+}
+\makeatother
+
+
+%----------------------------------------------------
+% Chapter  style
+%----------------------------------------------------
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+      \Large \@chapapp\space \Huge\thechapter
+        \par\nobreak
+        \vskip 40\p@
+      \fi
+    \fi
+    \interlinepenalty\@M
+    \hrule
+    \vspace*{12\p@}%
+    \huge #1\par\nobreak
+    \par
+    \vspace*{20\p@}%
+    \hrule
+    \vskip 50\p@
+  }}
+\def\@schapter#1{\if@twocolumn
+                   \@topnewpage[\@makeschapterhead{#1}]%
+                 \else
+                   \@makeschapterhead{#1}%
+                   \@afterheading
+                 \fi}
+\def\@makeschapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedleft
+    \normalfont
+    \interlinepenalty\@M
+    \hrule
+    \vspace*{6\p@}%
+    \Large #1\par\nobreak
+    \par
+    \vspace*{15\p@}%
+    \hrule
+    \vskip 40\p@
+  }}
+\makeatother
+
+%-----------------------------------
+% Header top/bottom
+%-----------------------------------
+\pagestyle{fancy}
+
+%\renewcommand{\chaptermark}[1]{%
+%\markboth{\MakeUppercase{%
+%\chaptername}\ \thechapter.%
+%\ #1}{}}
+%\renewcommand{\chaptermark}[1]{\markboth{{\thechapter} #1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{{\thesection} #1}{}}
+
+\renewcommand{\headrulewidth}{0pt}% Remove header rule
+\fancyhead{}% Remove all header contents
+
+%\definecolor{cadet}{RGB}{54,100,139}
+%\definecolor{cadet}{RGB}{96,123,139}
+%\definecolor{cadet}{RGB}{67,84,112}
+%\fancyhead[]{}
+%\fancyhead[RO]{{\rightmark}} % clear all header fields
+%\fancyhead[LO]{}
+%\fancyhead[LE]{{\leftmark}}
+%\fancyhead[RE]{}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,RE]{}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+
+
+
+%----------------------------------
+% Textauszeichnungen
+%----------------------------------
+\addtokomafont{captionlabel}{\footnotesize\bfseries}
+\addtokomafont{caption}{\footnotesize}
+\addtokomafont{section}{\Large}
+\addtokomafont{subsection}{}
+\addtokomafont{subsubsection}{}
+
+\begin{document}
+
+% Titleblatt einfügen
+\maketitle
+
+\frontmatter
+\input{./chapters/preface}
+\input{./chapters/copyright}
+
+\cleardoublepage
+\renewcommand*\contentsname{Table of contents}
+\currentpdfbookmark{Table of contents}{name}
+\tableofcontents
+
+\mainmatter
+
+\chapter{Introduction}
+\label{chap1}
+
+\input{./chapters/introduction}
+
+\chapter{The Open Global Glacier Model (OGGM)}
+\label{chap2}
+
+\input{./chapters/oggm}
+\input{./chapters/paper_01}
+
+\chapter{Ice thickness estimation}
+\label{chap3}
+
+\input{./chapters/paper_02}
+
+\chapter{Glacier mass balance}
+\label{chap4}
+
+\chapter{Past and future glacier change}
+\label{chap5}
+
+\chapter{OGGM-Edu}
+\label{chap6}
+
+\chapter{Conclusions}
+\label{chap7}
+
+\input{./chapters/perspectives}
+
+
+%\input{./chapters/chapter1}
+%\input{./chapters/chapter2}
+%\input{./chapters/chapter3}
+%\input{./chapters/chapter4}
+%\input{./chapters/chapter5}
+%\input{./chapters/chapter6}
+%\input{./chapters/chapter7}
+%\input{./chapters/chapter8}
+
+%\input{./papers/paper1}
+%\input{./papers/paper2}
+%\input{./papers/paper3}
+%\input{./papers/paper4}
+%\input{./papers/paper5}
+
+\cleardoublepage\phantomsection
+\bibliographystyle{copernicus}
+\bibliography{../habil/references}
+
+\end{document}
