@@ -56,6 +56,8 @@
 \MakePerPage{footnote} %the perpage package command
 \usepackage{float}
 
+
+
 \usepackage[bookmarks,colorlinks,citecolor=MidnightBlue,urlcolor=MidnightBlue,linkcolor=MidnightBlue,hypertexnames=false]{hyperref}
 %\usepackage[bookmarks,colorlinks,citecolor=Black,urlcolor=Black,linkcolor=Black,hypertexnames=false]{hyperref}
 
@@ -174,9 +176,6 @@
 %\renewcommand{\headrulewidth}{0.4pt}
 %\renewcommand{\footrulewidth}{0.4pt}
 
-
-
-
 %----------------------------------
 % Textauszeichnungen
 %----------------------------------
@@ -187,6 +186,8 @@
 \addtokomafont{subsubsection}{}
 
 \begin{document}
+
+\setcounter{tocdepth}{1}
 
 % Titleblatt einfügen
 \maketitle
@@ -217,20 +218,43 @@
 \label{chap3}
 
 \input{./chapters/paper_02}
+\input{./chapters/paper_03}
+\input{./chapters/paper_04}
+\input{./chapters/paper_05}
 
 \chapter{Glacier mass balance}
 \label{chap4}
 
+\input{./chapters/paper_06}
+\input{./chapters/paper_07}
+\input{./chapters/paper_08}
+\input{./chapters/paper_09}
+
 \chapter{Past and future glacier change}
 \label{chap5}
+
+\input{./chapters/paper_10}
+\input{./chapters/paper_11}
+\input{./chapters/paper_12}
+\input{./chapters/paper_13}
 
 \chapter{OGGM-Edu}
 \label{chap6}
 
+\input{./chapters/oggm-edu}
+
 \chapter{Conclusions}
-\label{chap7}
+\label{perspectives}
 
 \input{./chapters/perspectives}
+
+\chapter{Acknowledgements}
+
+\input{./chapters/acknowledgements}
+
+\chapter{Curriculum Vitae: Fabien Maussion}
+
+\input{./chapters/cv}
 
 
 %\input{./chapters/chapter1}
@@ -248,8 +272,10 @@
 %\input{./papers/paper4}
 %\input{./papers/paper5}
 
+\begin{footnotesize}
 \cleardoublepage\phantomsection
 \bibliographystyle{copernicus}
 \bibliography{../habil/references}
+\end{footnotesize}
 
 \end{document}

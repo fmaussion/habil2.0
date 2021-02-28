@@ -153,7 +153,7 @@ For a full list of past classes and student evaluations, visit [my personal webs
 
 For a list of current advisees, visit [my personal website](https://fabienmaussion.info/team/).
 
-## Publications
+## List of publications
 
 - Schuster, L., Maussion, F., Langhamer, L. and Moseley, G. E.: Lagrangian detection of precipitation moisture sources
   for an arid region in northeast Greenland: relations to the North Atlantic Oscillation, sea ice cover, and temporal

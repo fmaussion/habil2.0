@@ -13,7 +13,7 @@ process-based model driven by observations), we developed a statistical model ab
 SEB/SMB components from large-scale atmospheric reanalysis data. We then used these 34-yrs long reconstructions to study
 the impact of ENSO on SEB and SMB fluxes at Shallap Glacier, Cordillera Blanca, Peru.
 
-This paper also led to the publication of my first open-source package written in
+This paper also led to the publication of an open-source package written in
 Python (["DownGlacier"](https://bitbucket.org/fmaussion/downglacier)). I could then apply some of the practices I
 learned during the writing of this software to OGGM, which was only a vague project idea at that time. More importantly, this
 study contributed to the growing literature and interest for the application of machine learning techniques in

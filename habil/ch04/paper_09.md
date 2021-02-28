@@ -12,7 +12,7 @@ but they are available for the past two decades at most (and, at the time of wri
 
 This comprehensive meta-analysis of all data available at the WGMS is a considerable effort to reconstruct
 global glacier change back to 1961. Using a well established (and sometimes forgotten) multivariate statistical 
-interpolation method (Lliboutry, 1974 {cite}`Lliboutry1974`_ and robust uncertainty estimates, this reconstruction 
+interpolation method (Lliboutry, 1974 {cite}`Lliboutry1974`) and robust uncertainty estimates, this reconstruction 
 allowed to revisit
 previous global estimates and confirm the crucial contribution of past and present glacier change to sea-level rise.
 Amongst the many contributions of this paper to the glacier literature, on a personal and scientific level I 

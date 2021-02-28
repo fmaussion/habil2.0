@@ -25,14 +25,10 @@ extended product of the RGI version 6. Similarly to ITMIX phase I, the study als
 models, indicating that further improvements will be necessary (I will discuss this point
 in [chapter 07](content:outlook)).
 
-I contributed to this paper in several ways:
-
-- OGGM was one of the five models contributing to the final product. This contribution led to several improvements in
-  the OGGM codebase itself.
-- I argued in favor of running a cross-validation experiment and helped designing it.
-- I also participated with an additional model contribution (a simple statistical model), which was later discarded
-  because it was previously unpublished.
-- I participated in the analysis of the results, and, to a smaller extent, to the writing of the paper.
+I contributed to this paper in several ways. OGGM was one of the five models contributing to the final product. 
+I argued in favor of running a cross-validation experiment and helped designing it. I also participated with an 
+additional model contribution (a simple statistical model), which was later discarded because it was previously unpublished.
+I participated in the analysis of the results, and, to a smaller extent, to the writing of the paper.
 
 [Link to the paper](https://doi.org/10.1038/s41561-019-0300-3) (non open-access)
 

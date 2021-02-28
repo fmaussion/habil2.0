@@ -6,7 +6,7 @@ team of researchers in various institutions.
 “OGGM e.V” is a registered non-profit organization, which purpose is the promotion of science and research in the fields
 of climate and glaciology; it does so by coordinating the development of OGGM and OGGM-Edu, and by organizing events
 around the topic of large-scale glaciology.
-\begin{itemize}
+\begin{itemize}[nosep]
 \item {} 
 \textbf{Website:} \href{https://oggm.org}{https://oggm.org}
 
@@ -33,6 +33,7 @@ This chapter briefly describes the OGGM project, its mission and building blocks
 some of the challenges the project is facing. For a discussion about the project’s future and long-term perspectives,
 refer to Sect.~\ref{perspectives}.
 
+\clearpage
 
 \section{Objectives of the OGGM project}
 
@@ -180,7 +181,7 @@ This very simple idea is at the core of the OGGM workflow: actions to perform on
 access to the data files via the glacier directory interface, read data they need from disk, and write back to it.
 
 This design matches perfectly the “glacier centric” modelling strategy, and has many advantages:
-\begin{itemize}
+\begin{itemize}[nosep]
 \item {} 
 there is no practical difference between simulating one single, or many glaciers: all glacier directories are
 independent of another.
@@ -200,7 +201,7 @@ processes, since everything is on disk and independant.
 \end{itemize}
 
 This persistence en disk has a few drawbacks as well:
-\begin{itemize}
+\begin{itemize}[nosep]
 \item {} 
 for the glacier directories to be independent, several data sources are duplicated: topography for example (each
 glacier has its own subset of the original data, often overlapping with neighbors), or climate timeseries (the same
@@ -338,7 +339,7 @@ many of the tools described below.
 
 Very much like peer-review, open development practices based on git enable code review. Open code review has many
 advantages:
-\begin{itemize}
+\begin{itemize}[nosep]
 \item {} 
 it gives model developers the opportunity to discuss changes alongside the code rather than per email
 
@@ -394,7 +395,7 @@ to engage the community of users towards OGGM’s development, since contributin
 than contributing to the code.
 
 OGGM’s documentation relies on three main elements:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 
 \item {} 
 The project website (\href{https://oggm.org}{https://oggm.org}) for general, non code related project communication and blog posts.
@@ -504,7 +505,7 @@ change of boundary conditions).
 
 Attempting to make a parallel with OGGM will unravel some differences:
 
-\begin{itemize}
+\begin{itemize}[nosep]
 \item {} 
 For one, OGGM already simulates
 all glaciers. I.e. “changing the domain” is not meaningful, unless the study attempts to simulate glaciers
