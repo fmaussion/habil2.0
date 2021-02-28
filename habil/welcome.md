@@ -4,7 +4,10 @@ This page is the online copy of my **Habilitation thesis**, submitted to
 the [Faculty of Geo- and Atmospheric Sciences](https://www.uibk.ac.at/fakultaeten/geo_und_atmosphaerenwissenschaften/index.html.en) 
 at the [University of Innsbruck](https://www.uibk.ac.at), Austria.
 
-A PDF of the thesis (same content) will be made available for download when ready.
+```{figure} ./img/title_pic.jpeg
+ :width: 100%
+ :align: left
+```
 
 ## Preface
 
@@ -38,8 +41,9 @@ to the doctoral studies of Beatriz Recinos and Julia Eis (University of Bremen),
 Northern British Columbia), Stephan Galos (University of Innsbruck) and the master thesis of
 Tobias Zolles (University of Innsbruck).
 
-
 ## Table of contents 
+
+This thesis is also available as PDF (same content): [download link](file:habil_maussion_nopapers.pdf).
 
 ```{tableofcontents}
 ```

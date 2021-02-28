@@ -359,13 +359,13 @@ alongside the code, making them particularly adapted for tutorials. In addition,
 interactively thanks to [MyBinder](https://mybinder.org). This is a great tool to engage new users, since they can try
 the model online before going the struggle of installing it.
 
-%```{figure} https://oggm.org/img/blog/v140/tutos_demo.gif
-% :width: 70%
-% :align: left
-% :name: tutos
-% 
-% Opening a tutorial in an interactive session in the browser
-% ```
+```{figure} https://oggm.org/img/blog/v140/tutos_demo.gif
+ :width: 70%
+ :align: left
+ :name: tutos
+ 
+ Opening a tutorial in an interactive session in the browser
+```
 
 ### Reproducibility
 
